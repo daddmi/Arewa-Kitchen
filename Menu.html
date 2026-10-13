@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arewa Kitchen | Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagestyle.css">
+</head>
+ 
+<body>
+ 
+    <header class="topBar">
+        <nav class="navBar">
+            <a class="brand" href="Home.html">
+                <img src="White Steaming Cloche Icon.png" alt="Arewa Kitchen logo">
+                <span>Arewa Kitchen</span>
+            </a>
+            <ul class="navLinks">
+                <li><a href="Home.html">Home</a></li>
+                <li><a class="here" href="Menu.html">Menu</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="pageBanner">
+        <h1>Our Menu</h1>
+        <p>Pick your plate. Everything is cooked after you order, so give us a little time and it will be worth it.</p>
+    </section>
+ 
+    <section class="sectionWrap">
+ 
+        <div class="filterRow">
+            <button class="filterButton active" data-show="all">All</button>
+            <button class="filterButton" data-show="grill">Grill</button>
+            <button class="filterButton" data-show="baked">Pizza and Burger</button>
+            <button class="filterButton" data-show="sides">Masa and Combo</button>
+        </div>
+ 
+        <div class="menuGroup" data-type="grill">
+            <h2 class="menuGroupTitle">From The Grill</h2>
+            <div class="foodGrid">
+ 
+                <div class="foodCard showUp">
+                    <img src="Suya.jpg" alt="Beef suya">
+                    <div class="foodInfo">
+                        <h3>Beef Suya</h3>
+                        <p>Thin slices of beef rubbed with our yaji and grilled until the edges char. Five sticks to a plate.</p>
+                        <span class="foodPrice">₦15,000</span>
+                    </div>
+                </div>
+ 
+                <div class="foodCard showUp delayOne">
+                    <img src="chicken suya.jpg" alt="Chicken suya">
+                    <div class="foodInfo">
+                        <h3>Chicken Suya</h3>
+                        <p>Eight pieces of chicken tenders with a hot pepper rub, served with fresh tomatoes and onions.</p>
+                        <span class="foodPrice">₦15,000</span>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+ 
+        <div class="menuGroup menuGroupSpace" data-type="baked">
+            <h2 class="menuGroupTitle">Pizza And Burger</h2>
+            <div class="foodGrid">
+ 
+                <div class="foodCard showUp">
+                    <img src="chicken pizza (1).jpg" alt="Chicken suya pizza">
+                    <div class="foodInfo">
+                        <h3>Chicken Suya Pizza</h3>
+                        <p>A medium pizza topped with our spicy grilled chicken. Suya and cheese in every bite.</p>
+                        <span class="foodPrice">₦10,000</span>
+                    </div>
+                </div>
+ 
+                <div class="foodCard showUp delayOne">
+                    <img src="burger.jpg" alt="Beef suya burger">
+                    <div class="foodInfo">
+                        <h3>Beef Suya Burger</h3>
+                        <p>A burger loaded with our spicy beef suya. Best eaten the moment it reaches your hands.</p>
+                        <a class="askNote" href="https://wa.me/2349065660700">Ask for today's price on WhatsApp</a>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+ 
+        <div class="menuGroup menuGroupSpace" data-type="sides">
+            <h2 class="menuGroupTitle">Masa And Combo</h2>
+            <div class="foodGrid">
+ 
+                <div class="foodCard showUp">
+                    <img src="masa.jpg" alt="Arewa masa">
+                    <div class="foodInfo">
+                        <h3>Arewa Masa</h3>
+                        <p>Soft rice cakes with a lightly crisp edge, served hot. Eat them with suya or on their own.</p>
+                        <a class="askNote" href="https://wa.me/2349065660700">Ask for today's price on WhatsApp</a>
+                    </div>
+                </div>
+ 
+                <div class="foodCard showUp delayOne">
+                    <img src="combo.jpg" alt="Special combo of jollof rice and beef suya">
+                    <div class="foodInfo">
+                        <h3>Special Combo</h3>
+                        <p>Smoky jollof rice with a side of beef suya. One plate, and you are full.</p>
+                        <a class="askNote" href="https://wa.me/2349065660700">Ask for today's price on WhatsApp</a>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+ 
+    </section>
+ 
+    <footer class="siteFooter">
+        <div class="footerInner">
+            <div class="footerName">
+                <h3>Arewa Kitchen</h3>
+                <p>Suya grilled fresh, made when you order.</p>
+            </div>
+            <a class="whatsapp" href="https://wa.me/2349065660700">Chat on WhatsApp</a>
+            <p class="instaText">Follow Arewa Kitchen on Instagram</p>
+        </div>
+    </footer>
+ 
+    <button class="topButton" id="topButton" aria-label="Back to top">&uarr;</button>
+    <script src="script.js"></script>
+ 
+</body>
+ 
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arewa Kitchen | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagestyle.css">
+</head>
+ 
+<body>
+ 
+    <header class="topBar">
+        <nav class="navBar">
+            <a class="brand" href="Home.html">
+                <img src="White Steaming Cloche Icon.png" alt="Arewa Kitchen logo">
+                <span>Arewa Kitchen</span>
+            </a>
+            <ul class="navLinks">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a class="here" href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="pageBanner">
+        <h1>Order Or Ask Us Anything</h1>
+        <p>Message us on WhatsApp and we will reply with your price and how long your food will take.</p>
+    </section>
+ 
+    <section class="sectionWrap">
+ 
+        <div class="contactRow">
+            <div class="contactBox showUp">
+                <h3>WhatsApp</h3>
+                <p>The quickest way to order or ask about prices.</p>
+                <a class="orderButton" href="https://wa.me/2349065660700">Chat on WhatsApp</a>
+            </div>
+ 
+            <div class="contactBox showUp delayOne">
+                <h3>Instagram</h3>
+                <p>See fresh photos from the grill and follow us for updates.</p>
+                <a class="ghostButton" href="#">Find Us On Instagram</a>
+            </div>
+        </div>
+ 
+        <div class="orderCard showUp">
+            <h3>Send Your Order</h3>
+            <p class="formNote">Fill this in and we will open WhatsApp with your order already typed. You only need to press send.</p>
+ 
+            <form id="orderForm">
+                <div class="formGrid">
+ 
+                    <div class="formField">
+                        <label for="customerName">Your name</label>
+                        <input type="text" id="customerName" required>
+                    </div>
+ 
+                    <div class="formField">
+                        <label for="chosenDish">What would you like?</label>
+                        <select id="chosenDish">
+                            <option>Beef Suya</option>
+                            <option>Chicken Suya</option>
+                            <option>Chicken Suya Pizza</option>
+                            <option>Arewa Masa</option>
+                            <option>Beef Suya Burger</option>
+                            <option>Special Combo</option>
+                        </select>
+                    </div>
+ 
+                    <div class="formField">
+                        <label for="howMany">How many plates?</label>
+                        <input type="number" id="howMany" value="1" min="1" max="50" required>
+                    </div>
+ 
+                    <div class="formField">
+                        <label for="deliveryPlace">Your location</label>
+                        <input type="text" id="deliveryPlace" placeholder="Street or area">
+                    </div>
+ 
+                    <div class="formField wide">
+                        <label for="extraNote">Anything we should know?</label>
+                        <textarea id="extraNote" placeholder="For example, extra pepper or no onions"></textarea>
+                    </div>
+ 
+                </div>
+ 
+                <button type="submit" class="orderButton sendButton">Send Order On WhatsApp</button>
+            </form>
+        </div>
+ 
+    </section>
+ 
+    <footer class="siteFooter">
+        <div class="footerInner">
+            <div class="footerName">
+                <h3>Arewa Kitchen</h3>
+                <p>Suya grilled fresh, made when you order.</p>
+            </div>
+            <a class="whatsapp" href="https://wa.me/2349065660700">Chat on WhatsApp</a>
+            <p class="instaText">Follow Arewa Kitchen on Instagram</p>
+        </div>
+    </footer>
+ 
+    <button class="topButton" id="topButton" aria-label="Back to top">&uarr;</button>
+    <script src="script.js"></script>
+ 
+</body>
+ 
+</html>
